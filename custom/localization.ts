@@ -2,16 +2,20 @@ const localizationJson: LocalizationText = {
   en: {
     header: {
       highlightText: 'E X C L U S I V E',
-      headerLine1: 'CRYPTO CADETS',
-      headerLine2: 'COLLECTIBLE NFTS',
+      headerLine1: 'AllaNFTs',
+      headerLine2: 'Collectible Art & NFTs',
       description:
-        'These exclusive crypto cadets were created to help showcase the Proton Market.',
-      buttonText: 'LABEL',
+        'These exclusive portraits were created to help showcase the Proton Market.',
+      buttonText: 'Get Started',
     },
     navbar: {
-      navLinks: ['BIO', 'BUSINESS', 'AUCTIONS', 'MY ITEMS'],
-      balanceText: 'Balance',
-      loginText: 'Connect Wallet',
+      "navLinks": [
+        "About",
+        "Other",
+        "My items"
+      ],
+      "balanceText": "Balance",
+      "loginText": "Connect Wallet"
     },
     detailPage: {
       priceLabelText: 'PRICE',

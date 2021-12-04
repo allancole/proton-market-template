@@ -1,52 +1,52 @@
 const customizationJson: ThemeProps = {
-  collection: 'cryptocadets',
-  owner: 'cryptocadets',
+  collection: '443545351211',
+  owner: 'allancole',
   typography: {
     h1: {
-      font: 'Bebas Neue',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '64px',
       fontWeight: '400',
       isItalic: false,
     },
     h2: {
-      font: 'Bebas Neue',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '32px',
       fontWeight: '400',
       isItalic: false,
     },
     h3: {
-      font: 'Bebas Neue',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '24px',
       fontWeight: '400',
       isItalic: true,
     },
     h4: {
-      font: 'Roboto',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '18px',
       fontWeight: '400',
       isItalic: false,
     },
     paragraph: {
-      font: 'Roboto',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '12px',
       fontWeight: '400',
       isItalic: false,
     },
     label: {
-      font: 'Roboto',
-      size: '14px',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+      size: '25px',
       fontWeight: '600',
       isItalic: false,
     },
     caption: {
-      font: 'Roboto',
+      font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       size: '14px',
       fontWeight: '400',
       isItalic: false,
     },
   },
   navbar: {
-    logo: '/logo.png',
+    logo: '/ac-logo-red.png',
     logoLink: '/',
     backgroundColor: '#ffffff',
     defaultAvatarImage: '/default-avatar.png',
@@ -54,15 +54,11 @@ const customizationJson: ThemeProps = {
     navLinks: [
       // recommended 3 - 5
       {
-        link: 'https://google.com',
+        link: '/about',
         color: '#000000',
       },
       {
-        link: 'https://google.com',
-        color: '#000000',
-      },
-      {
-        link: 'https://google.com',
+        link: '/about',
         color: '#000000',
       },
       {
@@ -78,7 +74,7 @@ const customizationJson: ThemeProps = {
     bottomBorderColor: '#cccccc',
   },
   footer: {
-    logo: '/logo.png',
+    logo: '/ac-logo-red.png',
     socialMediaLinks: [
       {
         link: 'https://facebook.com',
@@ -133,7 +129,7 @@ const customizationJson: ThemeProps = {
     carouselButtonsBorderColor: 'lightgrey',
   },
   header: {
-    image: '/header-image.png',
+    image: '/custom-header-image.png',
     imagePlacement: 'right',
     backgroundColor: 'white',
     highlightFont: {
