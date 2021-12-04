@@ -5,7 +5,7 @@ const localizationJson: LocalizationText = {
       headerLine1: 'AllaNFTs',
       headerLine2: 'Collectible Art & NFTs',
       description:
-        'These exclusive portraits were created to help showcase the Proton Market.',
+        'These exclusive portraits were created to help showcase the lorem ipsum.',
       buttonText: 'Get Started',
     },
     navbar: {
