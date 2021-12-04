@@ -16,12 +16,13 @@ export const HeaderContent = styled(MaxWidth)<{ imagePlacement: string }>`
   flex-direction: ${({ imagePlacement }) =>
     imagePlacement === 'right' ? 'row' : 'row-reverse'};
   height: 640px;
-  padding-top: 12px;
+  align-items: center;
 
   ${breakpoint.tablet`
     padding-top: 0;
     flex-direction: column;
     height: 100%;
+    align-items: flex-start;
   `}
 `;
 
