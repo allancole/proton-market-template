@@ -5,8 +5,9 @@ import { breakpoint } from '../../styles/Breakpoints';
 
 export const HeaderContainer = styled.div<{ backgroundColor: string }>`
   background-color: ${({ backgroundColor }) => backgroundColor || 'blue'};
+  padding-top: 96px;
 
-  ${breakpoint.tablet`
+${breakpoint.tablet`
     margin-top: 30px;
   `}
 `;

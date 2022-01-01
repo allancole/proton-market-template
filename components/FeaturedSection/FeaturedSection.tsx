@@ -34,8 +34,7 @@ export const FeaturedSection: FC<Props> = ({
   typography,
 }) => (
   <FeaturedSectionContainer
-    backgroundColor={featuredSectionStyles.backgroundColor}
-    paddingTop={featuredSectionStyles.paddingTop}>
+    backgroundColor={featuredSectionStyles.backgroundColor}>
     <FeaturedSectionWrapper>
       {featuredSectionText && featuredSectionText.heading ? (
         <HeadingText
