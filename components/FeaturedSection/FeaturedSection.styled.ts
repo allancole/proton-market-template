@@ -8,6 +8,7 @@ export const FeaturedSectionContainer = styled.section<{
 }>`
   width: 100%;
   background-color: ${({ backgroundColor }) => backgroundColor};
+  padding-top: ${({ paddingTop }) => paddingTop};
 `;
 
 export const FeaturedSectionWrapper = styled(MaxWidth).attrs({ as: 'section' })`
