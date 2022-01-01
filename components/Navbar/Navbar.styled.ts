@@ -80,7 +80,7 @@ export const LoginButton = styled.button<{
 }>`
   border: 2px solid ${({ buttonBorderColor }) => buttonBorderColor};
   height: 42px;
-  width: 20%;
+  width: 155px;
   padding: 0 15px;
   color: ${({ buttonFontColor }) => buttonFontColor};
   background-color: ${({ buttonBackgroundColor }) => buttonBackgroundColor};
