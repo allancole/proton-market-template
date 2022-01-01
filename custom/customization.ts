@@ -133,7 +133,6 @@ const customizationJson: ThemeProps = {
     image: '/custom-header-image.png',
     imagePlacement: 'right',
     backgroundColor: 'white',
-    paddingTop: '96px',
     highlightFont: {
       isShown: true,
       type: 'paragraph',
