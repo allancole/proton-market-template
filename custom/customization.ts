@@ -34,8 +34,8 @@ const customizationJson: ThemeProps = {
     },
     label: {
       font: 'Inter',
-      size: '25px',
-      fontWeight: '600',
+      size: '15px',
+      fontWeight: '400',
       isItalic: false,
     },
     caption: {
