@@ -28,7 +28,7 @@ const customizationJson: ThemeProps = {
     },
     paragraph: {
       font: 'Inter',
-      size: '12px',
+      size: '15px',
       fontWeight: '400',
       isItalic: false,
     },
@@ -40,7 +40,7 @@ const customizationJson: ThemeProps = {
     },
     caption: {
       font: 'Inter',
-      size: '14px',
+      size: '13px',
       fontWeight: '400',
       isItalic: false,
     },
