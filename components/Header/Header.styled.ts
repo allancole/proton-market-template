@@ -8,7 +8,7 @@ export const HeaderContainer = styled.div<{ backgroundColor: string }>`
   padding-top: 96px;
 
 ${breakpoint.tablet`
-    margin-top: 30px;
+    margin-top: 0;
   `}
 `;
 
