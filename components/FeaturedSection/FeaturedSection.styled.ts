@@ -4,6 +4,7 @@ import { Typography } from '../../custom/customization';
 
 export const FeaturedSectionContainer = styled.section<{
   backgroundColor: string;
+  paddingTop: string;
 }>`
   width: 100%;
   background-color: ${({ backgroundColor }) => backgroundColor};
