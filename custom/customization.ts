@@ -124,6 +124,7 @@ const customizationJson: ThemeProps = {
       type: 'h2',
       color: '#000000',
     },
+    paddingTop: '96px',
     backgroundColor: '#f2f2f2',
     carouselButtonsBackgroundColor: '#ffffff',
     carouselButtonsBorderColor: 'lightgrey',
