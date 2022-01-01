@@ -42,7 +42,7 @@ export const Wrapper = styled(MaxWidth).attrs({ as: 'nav' })`
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
 `;
 
