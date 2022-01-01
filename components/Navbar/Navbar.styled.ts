@@ -32,7 +32,7 @@ export const NavbarContainer = styled.div<{
   backgroundColor: string;
 }>`
   width: 100%;
-  position: relative;
+  position: fixed;
   border-bottom: 1px solid ${({ bottomBorderColor }) => bottomBorderColor};
   background-color: ${({ backgroundColor }) => backgroundColor};
   height: 96px;
