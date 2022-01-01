@@ -33,7 +33,7 @@ const localizationJson: LocalizationText = {
       soldOut: 'SOLD OUT',
     },
     featuredSection: {
-      heading: 'BREAKING NOW', // optional
+      heading: 'AVAILABLE NOW', // optional
     },
     myItemsPage: {
       header: 'MY ITEMS',
