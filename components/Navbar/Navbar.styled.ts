@@ -35,6 +35,7 @@ export const NavbarContainer = styled.div<{
   position: fixed;
   border-bottom: 1px solid ${({ bottomBorderColor }) => bottomBorderColor};
   background-color: ${({ backgroundColor }) => backgroundColor};
+  z-index: 99;
   height: 96px;
 `;
 
