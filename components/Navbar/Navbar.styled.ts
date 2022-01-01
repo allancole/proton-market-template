@@ -104,10 +104,8 @@ export const NavLinks = styled.section<{
   typography: Typography;
   navLinkFontType: string;
 }>`
-  max-width: 45%;
-  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   a {
     font-family: ${({ typography, navLinkFontType }) =>
@@ -116,6 +114,7 @@ export const NavLinks = styled.section<{
       typography[navLinkFontType].size};
     font-weight: ${({ typography, navLinkFontType }) =>
       typography[navLinkFontType].fontWeight};
+    padding: 1em;
   }
 `;
 
