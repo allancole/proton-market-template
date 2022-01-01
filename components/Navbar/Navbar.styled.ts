@@ -55,8 +55,8 @@ export const LogoContainer = styled.a`
 `;
 
 export const DesktopOnlySection = styled.section`
-  width: 85%;
-  margin-right: 40px;
+  width: 80%;
+  margin-right: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,6 +80,7 @@ export const LoginButton = styled.button<{
 }>`
   border: 2px solid ${({ buttonBorderColor }) => buttonBorderColor};
   height: 42px;
+  width: 20%;
   padding: 0 15px;
   color: ${({ buttonFontColor }) => buttonFontColor};
   background-color: ${({ buttonBackgroundColor }) => buttonBackgroundColor};
