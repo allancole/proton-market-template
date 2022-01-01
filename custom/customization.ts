@@ -302,6 +302,7 @@ export interface FeaturedSectionProps {
     color: string;
   };
   backgroundColor: string;
+  paddingTop: string;
   carouselButtonsBackgroundColor: string;
   carouselButtonsBorderColor: string;
 }
