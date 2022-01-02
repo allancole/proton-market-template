@@ -5,16 +5,16 @@ export const NftContainer = styled.div<{
   imageBackgroundColor: string;
   imagePlacement: string;
 }>`
-  width: 50%;
+  width: 67%;
   height: 100%;
   min-width: 552px;
   min-height: 552px;
   background-color: ${({ imageBackgroundColor }) =>
     imageBackgroundColor || 'none'};
   margin-left: ${({ imagePlacement }) =>
-    imagePlacement === 'left' ? '0' : '48px'};
+    imagePlacement === 'left' ? '0' : '0'};
   margin-right: ${({ imagePlacement }) =>
-    imagePlacement === 'left' ? '48px' : '0'};
+    imagePlacement === 'left' ? '0' : '0'};
   padding: 3vh 3vw;
   display: flex;
   justify-content: center;
