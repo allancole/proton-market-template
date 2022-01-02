@@ -23,10 +23,6 @@ export const AvatarContainer = styled.div`
   position: relative;
 `;
 
-export const HamburgerIcon = styled(Image)`
-  cursor: pointer;
-`;
-
 export const NavbarContainer = styled.div<{
   bottomBorderColor: string;
   backgroundColor: string;
@@ -92,6 +88,10 @@ export const LoginButton = styled.button<{
     typography[buttonFontType].size};
   font-weight: ${({ typography, buttonFontType }) =>
     typography[buttonFontType].fontWeight};
+`;
+
+export const HamburgerIcon = styled(Image)`
+  cursor: pointer;
 `;
 
 export const MobileOnlySection = styled.section`
