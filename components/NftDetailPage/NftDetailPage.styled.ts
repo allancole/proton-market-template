@@ -32,9 +32,9 @@ export const NftPageContainer = styled(MaxWidth).attrs({ as: 'main' })<{
 
 export const Button = styled.button<ButtonProps>`
   width: fit-content;
-  height: 56px;
+  height: 42px;
   margin-top: 32px;
-  padding: 0 1em;
+  padding: 0 3em;
   background-color: ${(props) => props.backgroundColor};
   font-family: ${(props) => props.typography[props.textFont].font};
   color: ${(props) => props.textColor};
