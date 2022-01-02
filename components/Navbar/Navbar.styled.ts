@@ -47,7 +47,7 @@ export const LogoContainer = styled.a`
   cursor: pointer;
 
   ${breakpoint.tablet`
-    margin-left: 16px;
+    margin-left: 0;
   `}
 `;
 
