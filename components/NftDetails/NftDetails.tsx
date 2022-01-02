@@ -74,6 +74,6 @@ export const NftDetails: FC<{
         {immutable_data.desc}
       </Description>
     </Box>
-    <Box>{children}</Box>
+    {children}
   </Container>
 );
