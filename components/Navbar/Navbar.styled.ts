@@ -56,7 +56,7 @@ export const LogoContainer = styled.a`
 `;
 
 export const DesktopOnlySection = styled.section`
-  width: 80%;
+  width: calc(100% - 155px - 1em);
   margin-right: 1em;
   display: flex;
   align-items: center;
