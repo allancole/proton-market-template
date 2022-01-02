@@ -14,7 +14,7 @@ export const NftPageContainer = styled(MaxWidth).attrs({ as: 'main' })<{
   imagePlacement: string;
 }>`
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   flex-direction: ${({ imagePlacement }) =>
     imagePlacement === 'left' ? 'row' : 'row-reverse'};
