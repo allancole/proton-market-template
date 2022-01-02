@@ -6,7 +6,7 @@ export const Container = styled.div<{ imagePlacement: string }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 33%;
   margin-left: ${({ imagePlacement }) =>
     imagePlacement === 'left' ? '48px' : '0'};
   margin-right: ${({ imagePlacement }) =>
