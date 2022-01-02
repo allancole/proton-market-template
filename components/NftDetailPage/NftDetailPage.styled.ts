@@ -14,11 +14,12 @@ export const NftPageContainer = styled(MaxWidth).attrs({ as: 'main' })<{
   imagePlacement: string;
 }>`
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   flex-direction: ${({ imagePlacement }) =>
     imagePlacement === 'left' ? 'row' : 'row-reverse'};
-  padding: 76px 0;
-  min-height: calc(100vh - 190px);
+  padding: 96px 0;
+  min-height: calc(100vh - 96px);
 
   ${breakpoint.tablet`
     padding: 32px 0;
