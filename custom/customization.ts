@@ -48,7 +48,7 @@ const customizationJson: ThemeProps = {
   navbar: {
     logo: '/ac-logo-red.png',
     logoLink: '/',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'transparent',
     defaultAvatarImage: '/default-avatar.png',
     navLinkFontType: 'label',
     navLinks: [
@@ -71,7 +71,7 @@ const customizationJson: ThemeProps = {
     buttonBackgroundColor: '#000000',
     buttonBorderColor: '#000000',
     buttonFontType: 'label',
-    bottomBorderColor: '#cccccc',
+    bottomBorderColor: 'transparent',
   },
   footer: {
     logo: '/ac-logo-red.png',
