@@ -4,13 +4,13 @@ const customizationJson: ThemeProps = {
   typography: {
     h1: {
       font: 'Inter',
-      size: '64px',
+      size: '32px',
       fontWeight: '400',
       isItalic: false,
     },
     h2: {
       font: 'Inter',
-      size: '32px',
+      size: '28px',
       fontWeight: '400',
       isItalic: false,
     },
