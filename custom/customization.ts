@@ -125,7 +125,7 @@ const customizationJson: ThemeProps = {
       color: '#000000',
     },
     paddingTop: '96px',
-    backgroundColor: '#f2f2f2',
+    backgroundColor: '#ffffff',
     carouselButtonsBackgroundColor: '#ffffff',
     carouselButtonsBorderColor: 'lightgrey',
   },
