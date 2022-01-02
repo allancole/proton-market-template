@@ -201,12 +201,6 @@ export const Navbar: FC<Props> = ({
       backgroundColor={backgroundColor}>
       <Wrapper>
         <MobileOnlySection>
-          <Image
-            src="/hamburger-icon.svg"
-            height="24px"
-            width="24px"
-            onClick={toggleNavDropdown}
-          />
           <LogoContainer href={navbarStyles.logoLink}>
             <Image src={navbarStyles.logo} height="42px" width="auto" />
           </LogoContainer>
@@ -243,6 +237,14 @@ export const Navbar: FC<Props> = ({
             {navbarText.loginText}
           </LoginButton>
         )}
+        <MobileOnlySection>
+          <Image
+            src="/hamburger-icon.svg"
+            height="24px"
+            width="24px"
+            onClick={toggleNavDropdown}
+          />
+        </MobileOnlySection>
         <Dropdown
           isOpen={isOpen}
           isLoggedIn={isLoggedIn}
