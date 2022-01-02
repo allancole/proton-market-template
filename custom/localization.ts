@@ -1,11 +1,11 @@
 const localizationJson: LocalizationText = {
   en: {
     header: {
-      highlightText: 'E X C L U S I V E',
+      highlightText: 'Exclusive',
       headerLine1: 'Collectible Art & NFTs',
       headerLine2: 'by Allan Cole',
       description:
-        'These exclusive pieces were created to help lorem ipsum the world.',
+        'These exclusive pieces are released in limited quantities. Get them while you can!',
       buttonText: 'Get Started',
     },
     navbar: {
@@ -18,25 +18,25 @@ const localizationJson: LocalizationText = {
       "loginText": "Connect Wallet"
     },
     detailPage: {
-      priceLabelText: 'PRICE',
-      editionLabelText: 'EDITION SIZE',
-      placeholderPriceText: 'NOT FOR SALE',
-      placeholderDropdownText: 'NO ASSETS',
-      buyButtonText: 'BUY NOW',
-      viewButtonText: 'VIEW ON PROTON MARKET',
-      sellButtonText: 'SELL ON PROTON MARKET',
-      cancelSaleButtonText: 'CANCEL SALE ON PROTON MARKET',
+      priceLabelText: 'Price',
+      editionLabelText: 'Edition Size',
+      placeholderPriceText: 'Not for sale',
+      placeholderDropdownText: 'No assets',
+      buyButtonText: 'Buy now',
+      viewButtonText: 'View on Proton Market',
+      sellButtonText: 'Sell on Proton Market',
+      cancelSaleButtonText: 'Cancel sale on Proton Market',
     },
     nftCard: {
-      nftsLeft: 'LEFT',
-      nftsOwnedForSale: 'FOR SALE',
-      soldOut: 'SOLD OUT',
+      nftsLeft: 'Left',
+      nftsOwnedForSale: 'For sale',
+      soldOut: 'Sold out',
     },
     featuredSection: {
-      heading: 'AVAILABLE NOW', // optional
+      heading: 'Available now', // optional
     },
     myItemsPage: {
-      header: 'MY ITEMS',
+      header: 'My items',
     },
   },
 };
