@@ -72,7 +72,6 @@ export const Footer: FC<{ footerStyles: FooterProps }> = ({ footerStyles }) => {
       backgroundColor={backgroundColor}
       borderColor={borderColor}>
       <FooterContent>
-        <Logo src={logo} className="logo" />
         <FooterIconsContainer>
           {getSocialMediaIcons(socialMediaLinks)}
         </FooterIconsContainer>
