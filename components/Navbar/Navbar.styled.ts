@@ -255,5 +255,6 @@ export const DropdownLink = styled.a<DropdownLinkProps>`
 
   ${breakpoint.tablet`
     padding: 8px 0;
+    font-size: 18px;
   `}
 `;
