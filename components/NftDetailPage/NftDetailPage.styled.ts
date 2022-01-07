@@ -22,11 +22,12 @@ export const NftPageContainer = styled(MaxWidth).attrs({ as: 'main' })<{
   min-height: calc(100vh - 96px);
 
   ${breakpoint.tablet`
-    padding: 32px 0 0;
+    padding: 96px 2rem 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    max-width: 640px;
   `}
 `;
 
