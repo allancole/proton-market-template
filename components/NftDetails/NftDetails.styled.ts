@@ -46,7 +46,7 @@ export const CollectionName = styled.h3<FontProps>`
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   line-height: 24px;
-  margin: 0 0 24px;
+  margin: 0;
 
   ${breakpoint.tablet`
     font-size: 14px;
@@ -97,8 +97,8 @@ export const Description = styled.p<FontProps>`
   font-family: ${(props) => props.typography[props.type].font};
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
-  margin-top: 24px;
   line-height: 24px;
+  margin-bottom: 1rem;
 
   ${breakpoint.tablet`
     font-size: 14px;
