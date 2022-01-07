@@ -58,14 +58,14 @@ export const NftDetails: FC<{
         <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
           {priceLabelText}
         </PriceEditionLabel>
-        <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
-          {editionLabelText}
-        </PriceEditionLabel>
-      </Row>
-      <Row>
         <Price {...priceFont} typography={typography}>
           {lowestPrice || placeholderPriceText}
         </Price>
+      </Row>
+      <Row>
+        <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
+          {editionLabelText}
+        </PriceEditionLabel>
         <Edition {...editionFont} typography={typography}>
           {max_supply}
         </Edition>
