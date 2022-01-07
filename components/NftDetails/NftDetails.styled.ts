@@ -85,6 +85,7 @@ export const Edition = styled.h2<FontProps>`
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   line-height: 40px;
+  margin-bottom: 1rem;
 
   ${breakpoint.tablet`
     font-size: 22px;
