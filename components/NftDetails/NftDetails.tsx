@@ -51,10 +51,10 @@ export const NftDetails: FC<{
       <Title {...cardTitleFont} typography={typography}>
         {immutable_data.name}
       </Title>
-      <CollectionName {...collectionNameFont} typography={typography}>
-        {collection.name}
-      </CollectionName>
       <Row>
+        <CollectionName {...collectionNameFont} typography={typography}>
+          {collection.name}
+        </CollectionName>
         <Description {...cardDescriptionFont} typography={typography}>
           {immutable_data.desc}
         </Description>
