@@ -54,10 +54,10 @@ export const NftDetails: FC<{
       <CollectionName {...collectionNameFont} typography={typography}>
         {collection.name}
       </CollectionName>
-      <Description {...cardDescriptionFont} typography={typography}>
-        {immutable_data.desc}
-      </Description>
       <Row>
+        <Description {...cardDescriptionFont} typography={typography}>
+          {immutable_data.desc}
+        </Description>
         <Box>
           <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
             {editionLabelText}
@@ -66,15 +66,15 @@ export const NftDetails: FC<{
             {max_supply}
           </Edition>
         </Box>
-        <Box>
-          <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
-            {priceLabelText}
-          </PriceEditionLabel>
-          <Price {...priceFont} typography={typography}>
-            {lowestPrice || placeholderPriceText}
-          </Price>
-        </Box>
       </Row>
+      <Box>
+        <PriceEditionLabel {...priceEditionLabelFont} typography={typography}>
+          {priceLabelText}
+        </PriceEditionLabel>
+        <Price {...priceFont} typography={typography}>
+          {lowestPrice || placeholderPriceText}
+        </Price>
+      </Box>
     </Box>
     {children}
   </Container>
