@@ -37,6 +37,7 @@ export const Title = styled.h1<FontProps>`
   ${breakpoint.tablet`
     font-size: 32px;
     line-height: 40px;
+    margin-bottom: 1rem;
   `}
 `;
 
