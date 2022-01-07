@@ -27,7 +27,7 @@ export const NftPageContainer = styled(MaxWidth).attrs({ as: 'main' })<{
     align-items: center;
     justify-content: center;
     height: 100%;
-    max-width: 640px;
+    max-width: 520px;
   `}
 `;
 
