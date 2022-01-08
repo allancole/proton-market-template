@@ -1,6 +1,6 @@
 const customizationJson: ThemeProps = {
-  collection: '44354535121',
-  owner: 'allancol',
+  collection: '443545351211',
+  owner: 'allancole',
   typography: {
     h1: {
       font: 'Inter',
