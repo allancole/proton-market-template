@@ -23,9 +23,8 @@ export const CardContainer = styled.div<{
   flex-direction: column;
   align-items: center;
   border-radius: ${({ borderRadius }) => borderRadius};
-  border: 1px solid ${({ borderColor }) => borderColor};
   background-color: ${({ mainBackgroundColor }) => mainBackgroundColor};
-  padding: 0 24px 24px;
+  padding: 32;
   cursor: pointer;
 `;
 
