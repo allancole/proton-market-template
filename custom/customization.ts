@@ -3,43 +3,43 @@ const customizationJson: ThemeProps = {
   owner: 'allancole',
   typography: {
     h1: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '32px',
       fontWeight: '400',
       isItalic: false,
     },
     h2: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '28px',
       fontWeight: '400',
       isItalic: false,
     },
     h3: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '24px',
       fontWeight: '400',
       isItalic: true,
     },
     h4: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '18px',
       fontWeight: '400',
       isItalic: false,
     },
     paragraph: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '15px',
       fontWeight: '400',
       isItalic: false,
     },
     label: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '15px',
       fontWeight: '400',
       isItalic: false,
     },
     caption: {
-      font: 'Inter',
+      font: 'Cabinet Grotesk',
       size: '13px',
       fontWeight: '400',
       isItalic: false,
@@ -248,7 +248,7 @@ export const generateFontImportLink = (
     }wght@${stylesString}`;
   });
 
-  return `https://fonts.googleapis.com/css2?${fonts.join('&')}&display=swap`;
+  return `https://fonts.googleapis.com/css?f[]=2?${fonts.join('&')}&display=swap`;
 };
 
 export interface HeaderProps {
