@@ -73,17 +73,6 @@ export const Card: FC<Props> = ({
       borderRadius={borderRadius}
       borderColor={borderColor}
       mainBackgroundColor={mainBackgroundColor}>
-      <QuantityText {...countFont} typography={typography}>
-        {formattedSaleCount ? (
-          type === 'featured' ? (
-            `${formattedSaleCount} ${nftCardText.nftsLeft}`
-          ) : (
-            `${formattedSaleCount}/${max_supply} ${nftCardText.nftsOwnedForSale}`
-          )
-        ) : (
-          <ShimmerBlock width="75px" />
-        )}
-      </QuantityText>
 
       {video ? (
         <TemplateVideo
@@ -105,9 +94,6 @@ export const Card: FC<Props> = ({
       <Name {...titleFont} isCarousel={isCarousel} typography={typography}>
         {name}
       </Name>
-      <CollectionName {...collectionNameFont} typography={typography}>
-        {displayName || collection_name}
-      </CollectionName>
       <PriceSection
         lowestPrice={lowestPrice}
         type={type}
