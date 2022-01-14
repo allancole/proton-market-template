@@ -102,7 +102,7 @@ const customizationJson: ThemeProps = {
     borderRadius: '8px',
     priceFont: {
       type: 'h4',
-      color: '#377EFF',
+      color: '#000000',
     },
     countFont: {
       type: 'label',
@@ -136,7 +136,7 @@ const customizationJson: ThemeProps = {
     highlightFont: {
       isShown: true,
       type: 'paragraph',
-      color: '#377EFF',
+      color: '#000000',
     },
     mainHeadingFont: {
       type: 'h1',
