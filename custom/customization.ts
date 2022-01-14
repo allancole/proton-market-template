@@ -249,7 +249,7 @@ export const generateFontImportLink = (
   });
 
 //  return `https://api.fontshare.com/css2?${fonts.join('&')}&display=swap`;
-  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@500,800&display=swap`;
+  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@300,400,500,800&display=swap`;
 };
 
 export interface HeaderProps {
