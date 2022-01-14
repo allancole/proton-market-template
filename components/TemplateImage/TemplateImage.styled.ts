@@ -10,7 +10,7 @@ export type MediaContainerProps = {
 
 export const ImageContainer = styled(FadeInImageContainer)<MediaContainerProps>`
   position: relative;
-  height: 270px;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
