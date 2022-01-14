@@ -22,25 +22,25 @@ const customizationJson: ThemeProps = {
     },
     h4: {
       font: 'Cabinet Grotesk',
-      size: '18px',
+      size: '19px',
       fontWeight: '400',
       isItalic: false,
     },
     paragraph: {
       font: 'Cabinet Grotesk',
-      size: '15px',
+      size: '19px',
       fontWeight: '400',
       isItalic: false,
     },
     label: {
       font: 'Cabinet Grotesk',
-      size: '15px',
+      size: '19px',
       fontWeight: '400',
       isItalic: false,
     },
     caption: {
       font: 'Cabinet Grotesk',
-      size: '13px',
+      size: '15px',
       fontWeight: '400',
       isItalic: false,
     },
@@ -115,7 +115,7 @@ const customizationJson: ThemeProps = {
     },
     collectionNameFont: {
       type: 'label',
-      color: '#666666',
+      color: '#000000',
     },
   },
   featuredSection: {
@@ -171,11 +171,11 @@ const customizationJson: ThemeProps = {
     },
     collectionNameFont: {
       type: 'caption',
-      color: '#666666',
+      color: '#000000',
     },
     priceEditionLabelFont: {
       type: 'caption',
-      color: '#666666',
+      color: '#000000',
     },
     priceFont: {
       type: 'h2',
@@ -187,7 +187,7 @@ const customizationJson: ThemeProps = {
     },
     cardDescriptionFont: {
       type: 'caption',
-      color: '#666666',
+      color: '#000000',
     },
     errorFont: {
       type: 'caption',
