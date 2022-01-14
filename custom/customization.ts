@@ -22,19 +22,19 @@ const customizationJson: ThemeProps = {
     },
     h4: {
       font: 'Cabinet Grotesk',
-      size: '19px',
+      size: '17px',
       fontWeight: '400',
       isItalic: false,
     },
     paragraph: {
       font: 'Cabinet Grotesk',
-      size: '19px',
+      size: '17px',
       fontWeight: '400',
       isItalic: false,
     },
     label: {
       font: 'Cabinet Grotesk',
-      size: '19px',
+      size: '17px',
       fontWeight: '400',
       isItalic: false,
     },
