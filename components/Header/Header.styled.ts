@@ -106,7 +106,7 @@ export const SubHeaderText = styled.h2<{
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin-top: 16px;
-  max-width: 550px;
+  max-width: 32ch;
 
   ${breakpoint.mobile`
     font-size: 14px;
