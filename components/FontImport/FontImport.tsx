@@ -8,12 +8,13 @@ export const FontImport: FC<{
   const fontImportLink = generateFontImportLink(Object.values(typography));
   return (
     <Head>
-      <link
+      <link href="https://api.fontshare.com/css?f[]=cabinet-grotesk@500,800&display=swap" rel="stylesheet">
+<!--       <link
         key="preconnect"
         rel="preconnect"
         href="https://fonts.gstatic.com"
       />
-      <link key="font" href={fontImportLink} rel="stylesheet" />
+      <link key="font" href={fontImportLink} rel="stylesheet" /> -->
     </Head>
   );
 };
