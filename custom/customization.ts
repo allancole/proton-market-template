@@ -243,12 +243,13 @@ export const generateFontImportLink = (
       ? partialStyleStrings.map((string) => `0,${string}`).join(';')
       : partialStyleStrings.join(';');
 
-    return `family=${font.replace(/\s/g, '+')}:${
+    return `f[]=${font.replace(/\s/g, '+')}:${
       shouldLoadItalic ? 'ital,' : ''
     }wght@${stylesString}`;
   });
 
-  return `https://api.fontshare.com/css?f[]=2?${fonts.join('&')}&display=swap`;
+//  return `https://api.fontshare.com/css2?${fonts.join('&')}&display=swap`;
+  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@500,800&display=swap`;
 };
 
 export interface HeaderProps {
