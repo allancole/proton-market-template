@@ -24,7 +24,7 @@ export const CardContainer = styled.div<{
   align-items: center;
   border-radius: ${({ borderRadius }) => borderRadius};
   background-color: ${({ mainBackgroundColor }) => mainBackgroundColor};
-  padding: 32;
+  padding: 32px;
   cursor: pointer;
 `;
 
