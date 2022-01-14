@@ -248,7 +248,7 @@ export const generateFontImportLink = (
     }wght@${stylesString}`;
   });
 
-  return `https://fonts.googleapis.com/css?f[]=2?${fonts.join('&')}&display=swap`;
+  return `https://api.fontshare.com/css?f[]=2?${fonts.join('&')}&display=swap`;
 };
 
 export interface HeaderProps {
