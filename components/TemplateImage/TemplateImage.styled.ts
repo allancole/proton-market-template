@@ -31,6 +31,6 @@ export const DefaultImage = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 270px;
-  max-height: 270px;
+  max-width: 100%;
+  height: auto;
 `;
