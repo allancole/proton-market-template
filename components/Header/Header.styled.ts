@@ -130,15 +130,16 @@ export const Button = styled.button<{
   textColor: string;
   typography: Typography;
 }>`
-  width: 208px;
-  height: 56px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  padding: 0.75rem 1rem;
   margin-top: 32px;
+  text-transform: uppercase;
+  cursor: pointer;
   display: ${(props) => (props.isShown ? 'block' : 'none')};
   background-color: ${(props) => props.backgroundColor};
   font-family: ${(props) => props.typography[props.textFont].font};
   color: ${(props) => props.textColor};
-  border: none;
-  cursor: pointer;
 
   ${breakpoint.mobile`
     width: 100%;
