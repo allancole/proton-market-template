@@ -75,7 +75,7 @@ export const LoginButton = styled.button<{
 }>`
   border: 2px solid ${({ buttonBorderColor }) => buttonBorderColor};
   width: auto;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
   color: ${({ buttonFontColor }) => buttonFontColor};
   background-color: ${({ buttonBackgroundColor }) => buttonBackgroundColor};
   cursor: pointer;
