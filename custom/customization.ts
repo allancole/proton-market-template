@@ -144,7 +144,7 @@ const customizationJson: ThemeProps = {
     },
     subheadingFont: {
       type: 'h4',
-      color: 'grey',
+      color: '#000000',
     },
     button: {
       isShown: true,
