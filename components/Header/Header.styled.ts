@@ -136,6 +136,7 @@ export const Button = styled.button<{
   margin-top: 32px;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: 800;
   display: ${(props) => (props.isShown ? 'block' : 'none')};
   background-color: ${(props) => props.backgroundColor};
   font-family: ${(props) => props.typography[props.textFont].font};
