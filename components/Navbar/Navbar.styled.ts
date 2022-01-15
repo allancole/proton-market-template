@@ -74,7 +74,6 @@ export const LoginButton = styled.button<{
   typography: Typography;
 }>`
   border: 2px solid ${({ buttonBorderColor }) => buttonBorderColor};
-  height: 42px;
   width: auto;
   padding: 0.75rem 1rem;
   color: ${({ buttonFontColor }) => buttonFontColor};
