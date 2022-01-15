@@ -68,7 +68,7 @@ export const PriceEditionLabel = styled.label<FontProps>`
 `;
 
 export const Price = styled.h2<FontProps>`
-  color: ${(props) => props.color};
+  color: #000000;
   font-family: ${(props) => props.typography[props.type].font};
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
