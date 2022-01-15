@@ -34,7 +34,7 @@ const customizationJson: ThemeProps = {
     },
     label: {
       font: 'Cabinet Grotesk',
-      size: '17px',
+      size: '14px',
       fontWeight: '800',
       isItalic: false,
     },
