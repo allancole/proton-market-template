@@ -5,43 +5,43 @@ const customizationJson: ThemeProps = {
     h1: {
       font: 'Cabinet Grotesk',
       size: '32px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
     h2: {
       font: 'Cabinet Grotesk',
       size: '28px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
     h3: {
       font: 'Cabinet Grotesk',
       size: '24px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: true,
     },
     h4: {
       font: 'Cabinet Grotesk',
       size: '17px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
     paragraph: {
       font: 'Cabinet Grotesk',
       size: '17px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
     label: {
       font: 'Cabinet Grotesk',
       size: '17px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
     caption: {
       font: 'Cabinet Grotesk',
       size: '15px',
-      fontWeight: '400',
+      fontWeight: '500',
       isItalic: false,
     },
   },
@@ -249,7 +249,7 @@ export const generateFontImportLink = (
   });
 
 //  return `https://api.fontshare.com/css2?${fonts.join('&')}&display=swap`;
-  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@300,400,500,800&display=swap`;
+  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@500,800&display=swap`;
 };
 
 export interface HeaderProps {
