@@ -80,6 +80,8 @@ export const LoginButton = styled.button<{
   color: ${({ buttonFontColor }) => buttonFontColor};
   background-color: ${({ buttonBackgroundColor }) => buttonBackgroundColor};
   cursor: pointer;
+  text-transform: uppercase;
+  white-space: nowrap;
   font-family: ${({ typography, buttonFontType }) =>
     typography[buttonFontType].font};
   font-size: ${({ typography, buttonFontType }) =>
@@ -106,6 +108,7 @@ export const NavLinks = styled.section<{
 }>`
   display: flex;
   justify-content: flex-end;
+  margin-left: auto;
 
   a {
     font-family: ${({ typography, navLinkFontType }) =>
