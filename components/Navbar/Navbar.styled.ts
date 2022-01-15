@@ -52,11 +52,9 @@ export const LogoContainer = styled.a`
 `;
 
 export const DesktopOnlySection = styled.section`
-  width: calc(100% - 155px - 1em);
-  margin-right: 1em;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   ${breakpoint.tablet`
     display: none;
   `}
@@ -77,8 +75,8 @@ export const LoginButton = styled.button<{
 }>`
   border: 2px solid ${({ buttonBorderColor }) => buttonBorderColor};
   height: 42px;
-  width: 155px;
-  padding: 0 15px;
+  width: auto;
+  padding: 0.75rem 1rem;
   color: ${({ buttonFontColor }) => buttonFontColor};
   background-color: ${({ buttonBackgroundColor }) => buttonBackgroundColor};
   cursor: pointer;
