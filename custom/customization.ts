@@ -50,7 +50,7 @@ const customizationJson: ThemeProps = {
     logoLink: '/',
     backgroundColor: 'transparent',
     defaultAvatarImage: '/default-avatar.png',
-    navLinkFontType: 'label',
+    navLinkFontType: 'paragraph',
     navLinks: [
       // recommended 3 - 5
       {
