@@ -132,7 +132,7 @@ export const Button = styled.button<{
 }>`
   border: 2px solid rgb(0, 0, 0);
   width: auto;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
   margin-top: 32px;
   text-transform: uppercase;
   cursor: pointer;
