@@ -141,10 +141,4 @@ export const Button = styled.button<{
   background-color: ${(props) => props.backgroundColor};
   font-family: ${(props) => props.typography[props.textFont].font};
   color: ${(props) => props.textColor};
-
-  ${breakpoint.mobile`
-    width: 100%;
-    height: 32px;
-    margin-top: 25px;
-  `}
 `;
