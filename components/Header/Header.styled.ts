@@ -85,7 +85,7 @@ export const HeaderText = styled.h1<{
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin: 0;
-  line-height: 1.25;
+  line-height: 1.22;
 
   ${breakpoint.tablet`
     font-size: 55px;
@@ -106,6 +106,7 @@ export const SubHeaderText = styled.h2<{
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin-top: 16px;
+  margin-bottom: 32px;
   max-width: 32ch;
 
   ${breakpoint.mobile`
@@ -133,7 +134,6 @@ export const Button = styled.button<{
   border: 2px solid rgb(0, 0, 0);
   width: auto;
   padding: 0.75rem 1.5rem;
-  margin-top: 32px;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 800;
