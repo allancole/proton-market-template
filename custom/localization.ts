@@ -5,7 +5,7 @@ const localizationJson: LocalizationText = {
       headerLine1: 'Collectible Art Prints & NFTs by Allan Cole',
       headerLine2: '',
       description:
-        'These exclusive pieces are released in limited quantities.',
+        'Limited quantities available.',
       buttonText: 'Get Started',
     },
     navbar: {
