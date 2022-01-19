@@ -3,43 +3,43 @@ const customizationJson: ThemeProps = {
   owner: 'allancole',
   typography: {
     h1: {
-      font: 'Gambarino',
-      size: '32px',
+      font: 'Cabinet Grotesk',
+      size: '72px',
       fontWeight: '500',
       isItalic: false,
     },
     h2: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '28px',
       fontWeight: '500',
       isItalic: false,
     },
     h3: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '24px',
       fontWeight: '500',
       isItalic: true,
     },
     h4: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     paragraph: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     label: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '14px',
       fontWeight: '800',
       isItalic: false,
     },
     caption: {
-      font: 'Gambarino',
+      font: 'Cabinet Grotesk',
       size: '15px',
       fontWeight: '500',
       isItalic: false,
@@ -249,7 +249,7 @@ export const generateFontImportLink = (
   });
 
 //  return `https://api.fontshare.com/css2?${fonts.join('&')}&display=swap`;
-  return `https://api.fontshare.com/css?f[]=gambarino@400&display=swap`;
+  return `https://api.fontshare.com/css?f[]=cabinet-grotesk@500,800&display=swap`;
 };
 
 export interface HeaderProps {
