@@ -86,7 +86,7 @@ export const HeaderText = styled.h1<{
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin: 0;
   line-height: 1.22;
-  max-width: 22ch;
+  max-width: 12ch;
 
   ${breakpoint.tablet`
     font-size: 55px;
@@ -108,7 +108,7 @@ export const SubHeaderText = styled.h2<{
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin-top: 16px;
   margin-bottom: 32px;
-  max-width: 32ch;
+  max-width: 22ch;
 
   ${breakpoint.mobile`
     font-size: 14px;
