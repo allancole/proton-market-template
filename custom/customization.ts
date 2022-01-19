@@ -4,7 +4,7 @@ const customizationJson: ThemeProps = {
   typography: {
     h1: {
       font: 'Cabinet Grotesk',
-      size: '72px',
+      size: '32px',
       fontWeight: '500',
       isItalic: false,
     },
