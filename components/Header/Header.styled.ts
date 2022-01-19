@@ -69,10 +69,6 @@ export const HighlightText = styled.h3<{
   font-size: ${(props) => props.typography[props.type].size};
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin-bottom: 8px;
-
-  ${breakpoint.mobile`
-    font-size: 12px;
-  `}
 `;
 
 export const HeaderText = styled.h1<{
@@ -89,11 +85,7 @@ export const HeaderText = styled.h1<{
   max-width: 12ch;
 
   ${breakpoint.tablet`
-    font-size: 55px;
-  `}
-
-  ${breakpoint.mobile`
-    font-size: 32px;
+    font-size: 48px;
   `}
 `;
 
@@ -109,11 +101,6 @@ export const SubHeaderText = styled.h2<{
   margin-top: 16px;
   margin-bottom: 32px;
   max-width: 22ch;
-
-  ${breakpoint.mobile`
-    font-size: 14px;
-    margin-top: 23px;
-  `}
 `;
 
 export const ButtonWrapperAnchor = styled.a.attrs({
