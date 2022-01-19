@@ -3,43 +3,43 @@ const customizationJson: ThemeProps = {
   owner: 'allancole',
   typography: {
     h1: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '32px',
       fontWeight: '500',
       isItalic: false,
     },
     h2: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '28px',
       fontWeight: '500',
       isItalic: false,
     },
     h3: {
-      font: 'Cabinet Grotesk',
+      font: 'Gambarino',
       size: '24px',
       fontWeight: '500',
       isItalic: true,
     },
     h4: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     paragraph: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     label: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '14px',
       fontWeight: '800',
       isItalic: false,
     },
     caption: {
-      font: 'Pencerio',
+      font: 'Gambarino',
       size: '15px',
       fontWeight: '500',
       isItalic: false,
@@ -249,7 +249,7 @@ export const generateFontImportLink = (
   });
 
 //  return `https://api.fontshare.com/css2?${fonts.join('&')}&display=swap`;
-  return `https://api.fontshare.com/css?f[]=pencerio@50&display=swap`;
+  return `https://api.fontshare.com/css?f[]=gambarino@400&display=swap`;
 };
 
 export interface HeaderProps {
