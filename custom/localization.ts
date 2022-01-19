@@ -2,10 +2,10 @@ const localizationJson: LocalizationText = {
   en: {
     header: {
       highlightText: 'Exclusive',
-      headerLine1: 'Collectible Art & NFTs',
-      headerLine2: 'by Allan Cole',
+      headerLine1: 'Collectible Art Prints & NFTs by Allan Cole',
+      headerLine2: '',
       description:
-        'These exclusive pieces are released in limited quantities. Get them while you can!',
+        'These exclusive pieces are released in limited quantities.',
       buttonText: 'Get Started',
     },
     navbar: {
