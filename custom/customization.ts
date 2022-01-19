@@ -3,13 +3,13 @@ const customizationJson: ThemeProps = {
   owner: 'allancole',
   typography: {
     h1: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '32px',
       fontWeight: '500',
       isItalic: false,
     },
     h2: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '28px',
       fontWeight: '500',
       isItalic: false,
@@ -21,25 +21,25 @@ const customizationJson: ThemeProps = {
       isItalic: true,
     },
     h4: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     paragraph: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '17px',
       fontWeight: '500',
       isItalic: false,
     },
     label: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '14px',
       fontWeight: '800',
       isItalic: false,
     },
     caption: {
-      font: 'Cabinet Grotesk',
+      font: 'Pencerio',
       size: '15px',
       fontWeight: '500',
       isItalic: false,
