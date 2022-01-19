@@ -86,6 +86,7 @@ export const HeaderText = styled.h1<{
   font-weight: ${(props) => props.typography[props.type].fontWeight};
   margin: 0;
   line-height: 1.22;
+  max-width: 22ch;
 
   ${breakpoint.tablet`
     font-size: 55px;
